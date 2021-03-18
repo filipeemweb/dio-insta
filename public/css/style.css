@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    justify-content: center;
+}
+
+#insta-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 100vh;
+}
+
+.insta-phone {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 30%;
+}
+
+.insta-phone img {
+    height: 600px;
+}
+
+.insta-continue {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-items: space-between;
+    width: 100%;
+    min-height: 34rem;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+    width: 50%;
+
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+    margin-bottom: .8rem;
+}
+
+.logo {
+    width: 100px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile img {
+    width: 80px;
+}
+
+.insta-login {
+    background-color: #0095f6;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.insta-logout {
+    color: #0095f6;
+}
+
+.not-account {
+    color: rgb(160, 160, 160);
+}
+
+.blue-link {
+    color: #0095f6;
+}
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app {
+    height: 5rem;
+    width: 15rem;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.app:nth-child(1) {
+    background-position: center;
+    background-image: url('../image/app-store.png');
+}
+
+.app:nth-child(2) {
+    background-position: center;
+    background-image: url('../image/play-store.png');
+}
